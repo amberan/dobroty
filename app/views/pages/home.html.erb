@@ -5,7 +5,7 @@
     Super duper dobroty tady všude budou, až je sem všechny nandám a hlavně se naučím Ruby on Rails.
   </h2>
   
-  <%= link_to "Přihlásit hned!", "", class: "btn btn-lg btn-success" %>
+  <%= link_to "Stát se kuchařem hned!", register_path, class: "btn btn-lg btn-success" %>
 </div>
 <div class="row">
   <div class="col-lg-4">
@@ -19,20 +19,20 @@
   </div>
   <div class="col-lg-4">
     <h3 class="midrow">
-      Chci kouknout na recepty
+      Přihlásit se na svůj účet
     </h3>
     <h2 class="left">
-      Jen okouknout recepty, přihlásit se později
+      Přihlásit se, přidávat dobroty, upravovat je a vůbec se chovat jako doma.
     </h2>
-    <p><%= link_to "Okukovat seznam receptůch", "", class: "btn btn-warning btn-small" %></p>
+    <p><%= link_to "Přihlásit se", login_path, class: "btn btn-warning btn-small" %></p>
   </div>
   <div class="col-lg-4">
     <h3 class="midrow">
-      Chci kouknout na recepty
+      Chci kouknout na kuchaře
     </h3>
     <h2 class="left">
-      Jen okouknout recepty, přihlásit se později
+      Jen okouknout kuchaře, přihlásit se později
     </h2>
-    <p><%= link_to "Okukovat seznam receptůch", "", class: "btn btn-warning btn-small" %></p>
+    <p><%= link_to "Okukovat seznam kuchařůch", chefs_path, class: "btn btn-warning btn-small" %></p>
   </div>
 </div>
