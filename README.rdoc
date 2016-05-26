@@ -1,19 +1,7 @@
-Chefs:
 
-What we have already:
-- Chef model and validations
-- chefs table with columns chefname and email
 
-To be done:
-- ass passwords to chefs table for authentification
-- use email as login - it is unique
-- ability to register new chefs
-- ability to display profile
-- ability to list chefs
-- ability for chefs to log in and log out
-- restrict actions to loged in (create and edit recipe, like)
-- restrict editing recipes to creator
 
 Laaaater on (own invention):
 - chef can like or dislike only if he added at least one recipe, and aquired at least one like on it
 - add some kind of toggle for canceling one's like or dislike
+- require_user_back - lepsi nez like, univerzalne pouzitelne

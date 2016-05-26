@@ -16,7 +16,7 @@ class ApplicationController < ActionController::Base
   def require_user
     if !logged_in?
       flash[:danger] = "Na to musíš být přihlášený."
-      redirect_to :back
+      redirect_to recipes_path
     end
   end
   
